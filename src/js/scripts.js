@@ -3,7 +3,7 @@ const headers = {
   'Access-Control-Allow-Origin': '*'
 };
 
-const API_ROOT = 'http://localhost/nbaapi/api';
+const API_ROOT = 'http://host.docker.internal/nbaapi/api';
 
 var teamApp = new Vue({
 
