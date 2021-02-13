@@ -1,9 +1,6 @@
-const headers = {
-  'Content-Type': 'application/json',
-  'Access-Control-Allow-Origin': '*'
-};
+//const API_ROOT = 'http://host.docker.internal/nbaapi/api';
 
-const API_ROOT = 'http://host.docker.internal/nbaapi/api';
+const API_ROOT = '/api';
 
 var teamApp = new Vue({
 
